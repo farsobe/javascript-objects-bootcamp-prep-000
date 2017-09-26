@@ -10,7 +10,7 @@ The body of the function should delete the key-value pair from the playlist and 
 
 var playlist = {artistName: "songTitle"};
 
-function updatePlaylist(playlist, artistName, songTitle){
+function updatePlaylist(playlist, "artistName", songTitle){
   playlist[artistName] = songTitle;
   return playlist;
 }
