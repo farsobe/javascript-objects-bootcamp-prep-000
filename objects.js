@@ -14,7 +14,9 @@ function updatePlaylist({playlist}, artistName, songTitle){
   return Object.assign({}, {[artistName]: songTitle})
 }
 
-function removeFromPlaylist({playlist}, artistName){
+function removeFromPlaylist({}, {playlist}, artistName){
+  //Kanye: "Gold Digger", Kanye
   delete playlist.artistName;
+  
   return playlist;
 }
