@@ -10,11 +10,11 @@ The body of the function should delete the key-value pair from the playlist and 
 
 var playlist = {artistName: "songTitle"};
 
-function updatePlaylist({playlist}, artistName, songTitle){
+function updatePlaylist(playlist, artistName, songTitle){
   return Object.assign({}, {[artistName]: songTitle})
 }
 
-function removeFromPlaylist({}, {playlist}, artistName){
+function removeFromPlaylist(playlist, artistName){
   //Kanye: "Gold Digger", Kanye
   delete playlist.artistName;
 
