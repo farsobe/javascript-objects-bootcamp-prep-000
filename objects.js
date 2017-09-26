@@ -17,6 +17,6 @@ function updatePlaylist({playlist}, artistName, songTitle){
 function removeFromPlaylist({}, {playlist}, artistName){
   //Kanye: "Gold Digger", Kanye
   delete playlist.artistName;
-  
+
   return playlist;
 }
